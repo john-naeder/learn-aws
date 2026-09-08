@@ -647,8 +647,14 @@ hay ra thi nhất của nó: **immutable** khi đề nói "an toàn nhất, roll
 "zero downtime, đổi được ngay"; **all-at-once** khi "nhanh nhất, chấp nhận downtime".
 
 **Lightsail** — VPS giá cố định hàng tháng, gói sẵn compute + storage + transfer + DNS.
-Chọn khi đề nói **"chi phí dự đoán được"**, **"website nhỏ"**. Không có ASG thật, không
-tích hợp sâu VPC — đề nhắc HA nhiều AZ thì Lightsail là đáp án sai.
+Không có ASG thật, không tích hợp sâu VPC.
+
+> **Đề cương chính thức SAA-C03 xếp Lightsail vào danh sách _out of scope_** (mục
+> "Out-of-Scope AWS Services", [`../solutions-architect-associate-03.pdf`](../solutions-architect-associate-03.pdf)).
+> Nên bạn sẽ **không** gặp một câu hỏi mà đáp án đúng là Lightsail. Giữ nó ở đây vì
+> hai lý do thiết kế: nó là mốc so sánh cho câu hỏi "khi nào một VPS giá cố định tốt
+> hơn cả kiến trúc AWS đầy đủ", và nếu một phương án nhắc tới nó thì gần như chắc chắn
+> đó là **phương án nhiễu**.
 
 **AWS App Runner** — container web từ image hoặc source, tự lo scaling và TLS. **Từ
 30/04/2026 chuyển sang maintenance: không nhận khách hàng mới.** Nếu đề còn có nó, nó

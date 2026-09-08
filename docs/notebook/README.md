@@ -17,7 +17,7 @@ Sổ tay sâu hơn phần 12 tuần, nhưng **không rộng hơn**. Vẫn đúng
 trong [`../CONVENTIONS.md`](../CONVENTIONS.md): thà sâu 15 dịch vụ ra thi còn
 hơn lướt 60 dịch vụ.
 
-## Bản đồ 15 file
+## Bản đồ 20 file
 
 ### Nền tảng
 
@@ -36,6 +36,9 @@ hơn lướt 60 dịch vụ.
 | [`05-security.md`](05-security.md) | ai được làm gì, quyền tính ra sao, mã hoá bằng khoá nào |
 | [`06-tich-hop.md`](06-tich-hop.md) | hai thành phần cần nói chuyện — hàng đợi, pub/sub, bus, orchestrator hay API |
 | [`07-quan-tri-giam-sat.md`](07-quan-tri-giam-sat.md) | bốn dịch vụ quan sát khác nhau chỗ nào, vào máy bằng đường nào khi không có SSH |
+| [`08-phan-tich-du-lieu.md`](08-phan-tich-du-lieu.md) | dữ liệu đi từ nguồn tới biểu đồ qua sáu chặng — ingest, lưu, ETL, truy vấn |
+| [`09-ai-ml-media.md`](09-ai-ml-media.md) | tám dịch vụ AI dựng sẵn, SageMaker, media — nhận vào gì trả ra gì, đồng bộ hay không |
+| [`14-hybrid-va-bien.md`](14-hybrid-va-bien.md) | hạ tầng lai và biên: Outposts, Storage Gateway, Directory Service, và ràng buộc ngoài kỹ thuật |
 
 ### Theo bài toán — "chọn cái nào cho tình huống này"
 
@@ -57,9 +60,21 @@ Miền nặng nhất — Secure **30%** — nằm ở [`05-security.md`](05-secu
 | [`20-cay-quyet-dinh.md`](20-cay-quyet-dinh.md) | biết bài toán thuộc nhóm nào, cần một chuỗi câu hỏi để chốt dịch vụ |
 | [`21-tu-khoa-de-thi.md`](21-tu-khoa-de-thi.md) | cần giải mã thứ tiếng Anh có mã của đề, gồm cả **bẫy từ khoá** |
 | [`22-bang-so-sanh.md`](22-bang-so-sanh.md) | còn đúng hai đáp án, cần một dòng để chốt |
+| [`23-de-cuong-chinh-thuc.md`](23-de-cuong-chinh-thuc.md) | AWS tuyên bố hỏi gì: 14 task statement, 118 service in-scope, danh sách ngoài phạm vi |
 
 Cột cuối mỗi bảng trong `22` là **"đề thi phân biệt bằng từ nào"** — đó là thứ
 làm nó khác một bảng thuộc tính khô khan.
+
+### Thiết kế — "tự nghĩ ra kiến trúc, không chỉ chọn đáp án"
+
+| File | Mở khi |
+|---|---|
+| [`30-thiet-ke-he-thong.md`](30-thiet-ke-he-thong.md) | có một đề bài nghiệp vụ mơ hồ và phải ra kiến trúc: bảy bước, bốn kiến trúc tham chiếu, năm đề thiết kế mở |
+
+Đây là chương khác biệt nhất trong sổ tay. Mọi chương khác trả lời *"cái này là
+gì"*; chương này trả lời *"làm sao biết mình đang hỏi đúng câu hỏi"*. Bốn miền thi
+đều bắt đầu bằng động từ **Design** — xem
+[`23-de-cuong-chinh-thuc.md`](23-de-cuong-chinh-thuc.md) mục 5.
 
 ## Ba lối vào
 
