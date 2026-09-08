@@ -1,0 +1,26 @@
+# Không thuộc repo này
+learn-k8s/
+source-node.txt
+notes/*-k8s-*.md
+/solutions-architect-associate-03.pdf
+
+# Cấu hình công cụ cục bộ
+.claude/
+**/.claude/
+.mcp.json
+
+# Terraform — state chứa dữ liệu nhạy cảm, KHÔNG BAO GIỜ commit
+**/.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+!*.tfvars.example
+crash.log
+crash.*.log
+.terraform.lock.hcl
+
+# Thông tin xác thực
+.env
+*.pem
+*.key
+credentials
