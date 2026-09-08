@@ -32,3 +32,4 @@ Mục **Còn treo** là hàng đợi cho buổi sau.
 | Ngày | Chủ đề | Ghi chú |
 |---|---|---|
 | 2026-08-22 | [Sổ tay tra cứu, và bộ lab tự viết có hàng rào](2026-08-22-so-tay-va-lab-tu-viet.md) | `docs/notebook/` + `labs-self/`; permission boundary vừa là rào vừa là bài học |
+| 2026-09-08 | [Đề cương chính thức và chương thiết kế](2026-09-08-de-cuong-chinh-thuc-va-chuong-thiet-ke.md) | 5 chương mới; bốn miền đều là động từ **Design** |
